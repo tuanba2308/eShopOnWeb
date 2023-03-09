@@ -17,8 +17,7 @@ jobs:
   buildandtest:
     runs-on: ubuntu-latest
     steps:
-    #checkou
-    t the repository
+    #checkout the repository
     - uses: actions/checkout@v2
     #prepare runner for desired .net version SDK
     - name: Setup .NET
